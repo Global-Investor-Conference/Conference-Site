@@ -3,3 +3,9 @@
     display: none;
   }
 }
+
+@media (min-width: 701px) {
+  .hidden-computer {
+    display: none;
+  }
+}
