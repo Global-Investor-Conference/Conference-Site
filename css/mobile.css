@@ -9,3 +9,13 @@
     display: none;
   }
 }
+
+.img-computer {
+  padding: 25px;
+}
+
+.sponsor-computer {
+  border-style: solid;
+  border-color: #21c760;
+  border-width: 5px;
+}

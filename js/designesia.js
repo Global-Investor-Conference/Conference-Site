@@ -654,10 +654,12 @@ jQuery(document).ready(function () {
          });
 
     jQuery("#logo-carousel").owlCarousel({
-        items: 6,
+        items: 4,
         loop:true,
-		dots: false,
-        autoPlay: true
+		dots: true,
+        autoPlay: true,
+        mouseDrag: true,
+		touchDrag: true,
     });
 
     jQuery("#contact-carousel").owlCarousel({
