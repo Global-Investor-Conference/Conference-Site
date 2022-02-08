@@ -648,8 +648,8 @@ jQuery(document).ready(function () {
 			animateIn: 'fadeIn',
 			loop:true,
 			dots:true,
-			mouseDrag:false,
-			touchDrag:false,
+			mouseDrag:true,
+			touchDrag:true,
 			margin:0,
          });
 
@@ -657,9 +657,12 @@ jQuery(document).ready(function () {
         items: 4,
         loop:true,
 		dots: true,
+        navigation: true,
         autoPlay: true,
+        autoplayTimeout:4000,
         mouseDrag: true,
 		touchDrag: true,
+        autoWidth: true
     });
 
     jQuery("#contact-carousel").owlCarousel({
@@ -691,8 +694,8 @@ jQuery(document).ready(function () {
 			autoplayTimeout:4000,
 			loop:true,
 			dots:true,
-			mouseDrag:false,
-			touchDrag:false,
+			mouseDrag: true,
+			touchDrag: true,
 			margin:0,
          });
 	
